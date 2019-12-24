@@ -14,6 +14,7 @@ namespace SampleDatabaseWalkthrough
         [STAThread]
         static void Main()
         {
+            Console.WriteLine("hellow");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
